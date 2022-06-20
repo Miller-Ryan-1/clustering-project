@@ -6,14 +6,14 @@
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 #### Project Objectives
+> - Use clustering to improve EDA and/or create new features that improve the predictive power of log error (a proxy for Zestimate).
 > - Document code, process (data acquistion, preparation, exploratory data analysis and statistical testing, modeling, and model evaluation), findings, and key takeaways in a Jupyter Notebook report.
 > - Create modules (acquire.py, wrangle.py) that make your process repeateable.
-> - Use clustering to improve EDA and/or create new features that improve the predictive power of log error (proxy for Zestimate)
-> - Deliver a 5 minute presentation consisting of a high-level notebook walkthrough using your Jupyter Notebook from above; your presentation should be appropriate for your target audience.
+> - Deliver a 5 minute presentation consisting of a high-level notebook walkthrough using the Jupyter Notebook from above; the presentation should be appropriate for the target audience.
 > - Answer panel questions about your code, process, findings and key takeaways, and model.
 
 #### Business Goals
-> - Identify Key Drivers of Zillow's current model's log error.  This is based on exisiting modeling work.  This will help us (Zillow) continuously improve on our product offering.
+> - Identify Key Drivers of Zillow's current model's log error.  This is based on exisiting modeling work.  This will help us (Zillow) continuously improve on our product offering as it is one of our most important business offerings.
 > - Construct a ML classification model that predicts a home's log error based on key features.  This will ensure the driver's identified are fully engaged towards improving the customer experience.
 > - Document my process well enough to be presented or read like a report.
 
@@ -31,7 +31,7 @@
 
 |Target|Datatype|Definition|
 |:-------|:--------|:----------|
-| abs_logerror | 45474 non-null: float64 | difference between log of Zestiamte and log of actual price |
+| abs_logerror | 45474 non-null: float64 | difference between log of Zestimate and log of actual price |
 
 |Feature|Datatype|Definition|
 |:-------|:--------|:----------|
